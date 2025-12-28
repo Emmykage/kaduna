@@ -13,8 +13,8 @@ function App() {
   return (
     <Router>
       <Helmet>
-        <title>Kaduna Factory - Precision Manufacturing</title>
-        <meta name="description" content="Kaduna Factory: Nigeria's premier destination for sustainable industrial manufacturing and engineering excellence." />
+        <title>Qerve Limited - Precision Manufacturing</title>
+        <meta name="description" content="Qerve Limited: Nigeria's premier destination for sustainable industrial manufacturing and engineering excellence." />
       </Helmet>
       <div className="min-h-screen bg-slate-50 flex flex-col font-sans text-slate-900 selection:bg-green-500 selection:text-white">
         <Header />

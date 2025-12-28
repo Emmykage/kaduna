@@ -39,12 +39,8 @@ const Header = () => {
             </div>
           </div>
           <div className="flex flex-col">
-            <span className="text-xl font-bold text-white tracking-wide uppercase leading-none">
-              Kaduna
-            </span>
-            <span className="text-xs font-semibold text-green-500 uppercase tracking-[0.2em] leading-none mt-1">
-              Factory
-            </span>
+            <img src="./logo.jpeg" className='w-20' alt="" />
+            
           </div>
         </Link>
 

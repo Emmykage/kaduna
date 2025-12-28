@@ -10,9 +10,8 @@ const Footer = () => {
           
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-3 mb-6">
-              <Hexagon className="text-green-600 w-8 h-8" strokeWidth={1.5} />
               <div className="flex flex-col">
-                <span className="text-lg font-bold text-white uppercase tracking-wider">Kaduna Factory</span>
+            <img src="./logo.jpeg" className='w-20' alt="" />
                 <span className="text-[10px] text-green-600 tracking-[0.2em]">Est. Nigeria</span>
               </div>
             </Link>

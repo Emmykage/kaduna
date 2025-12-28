@@ -51,7 +51,7 @@ const LandingPage = () => {
             </motion.h1>
             
             <motion.p variants={fadeIn} className="text-xl text-slate-400 max-w-2xl mb-10 leading-relaxed font-light border-l-4 border-green-900 pl-6">
-              Kaduna Factory delivers world-class manufacturing solutions. We combine advanced technology with sustainable practices to build the infrastructure of tomorrow.
+              Qerve Limited delivers world-class manufacturing solutions. We combine advanced technology with sustainable practices to build the infrastructure of tomorrow.
             </motion.p>
             
             <motion.div variants={fadeIn} className="flex flex-wrap gap-4">
@@ -162,7 +162,7 @@ const LandingPage = () => {
          <div className="container mx-auto px-6 relative z-10">
            <div className="grid md:grid-cols-2 gap-16 items-center">
              <div>
-               <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Why Choose Kaduna Factory?</h2>
+               <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Why Choose Qerve Limited?</h2>
                <p className="text-slate-400 mb-8 leading-relaxed">
                  We don't just manufacture; we innovate. Our facility is designed to handle the most demanding industrial challenges with zero compromise on quality.
                </p>

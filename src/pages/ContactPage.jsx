@@ -20,8 +20,8 @@ const ContactPage = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Us - Kaduna Factory</title>
-        <meta name="description" content="Get in touch with Kaduna Factory for industrial inquiries." />
+        <title>Contact Us - Qerve Limited</title>
+        <meta name="description" content="Get in touch with Qerve Limited for industrial inquiries." />
       </Helmet>
 
       <div className="min-h-screen pt-20 bg-slate-50">

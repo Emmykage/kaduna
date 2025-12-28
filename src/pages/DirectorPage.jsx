@@ -8,14 +8,14 @@ const DirectorPage = () => {
     {
       name: 'Mr. Henry Benye',
       role: 'Managing Director',
-      bio: 'Leading with over two decades of industrial expertise, driving strategic growth and sustainable manufacturing practices at Kaduna Factory.',
-      image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+      bio: 'Leading with over two decades of industrial expertise, driving strategic growth and sustainable manufacturing practices at Qerve Limited.',
+      image: 'henry.jpeg'
     },
     {
       name: 'Mr. Chuba Menanya',
       role: 'COO & Head of Accounts',
       bio: 'Expertly bridging operations and finance to ensure fiscal health and operational efficiency across all production lines.',
-      image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+      image: 'chuba.jpeg'
     }
   ];
 
@@ -30,8 +30,8 @@ const DirectorPage = () => {
   return (
     <>
       <Helmet>
-        <title>Leadership - Kaduna Factory</title>
-        <meta name="description" content="Meet the executive team driving excellence at Kaduna Factory." />
+        <title>Leadership - Qerve Limited</title>
+        <meta name="description" content="Meet the executive team driving excellence at Qerve Limited." />
       </Helmet>
 
       <div className="bg-slate-50 min-h-screen pt-24 pb-20">
