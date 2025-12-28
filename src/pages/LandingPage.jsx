@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Settings, Truck, Box, BarChart3, ShieldCheck, Zap } from 'lucide-react';
+import { ArrowRight, Settings, Truck, Box, BarChart3, ShieldCheck, Zap, Leaf, Factory, Globe, Package, Ship, Users, Tractor } from 'lucide-react';
 import { Button } from '../components/UI/button';
 
 const fadeIn = {
@@ -41,23 +41,25 @@ const LandingPage = () => {
           >
             <motion.div variants={fadeIn} className="flex items-center gap-4 mb-6">
               <div className="h-[2px] w-12 bg-green-500" />
-              <span className="text-green-400 font-bold tracking-[0.2em] uppercase text-sm">Industrial Manufacturing Excellence</span>
+              <span className="text-green-400 font-bold tracking-[0.2em] uppercase text-sm">Agro Processing Excellence</span>
             </motion.div>
             
             <motion.h1 variants={fadeIn} className="text-5xl md:text-7xl lg:text-8xl font-black leading-[0.9] tracking-tight mb-8">
-              PRECISION <br/>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-green-600">ENGINEERING</span> <br/>
-              FOR FUTURE.
+              Powering <br/>
+
+               
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-green-600">Agricultural</span> <br/>
+               Value Chain.
             </motion.h1>
             
             <motion.p variants={fadeIn} className="text-xl text-slate-400 max-w-2xl mb-10 leading-relaxed font-light border-l-4 border-green-900 pl-6">
-              Qerve Limited delivers world-class manufacturing solutions. We combine advanced technology with sustainable practices to build the infrastructure of tomorrow.
-            </motion.p>
+
+Qerve Industries Ltd. is a trusted processor, trader, and exporter of high‑quality agricultural commodities and by‑products for domestic and global markets.            </motion.p>
             
             <motion.div variants={fadeIn} className="flex flex-wrap gap-4">
               <Link to="/contact">
                 <Button className="h-14 px-8 bg-green-600 hover:bg-green-500 text-white rounded-none border-l-4 border-green-300 text-sm font-bold tracking-widest uppercase transition-all shadow-[0_0_20px_rgba(34,197,94,0.3)]">
-                  Start Project <ArrowRight className="ml-2 w-5 h-5" />
+                  Explore Products <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
               <Link to="/directors">
@@ -76,9 +78,12 @@ const LandingPage = () => {
           transition={{ duration: 1.5, ease: "easeOut" }}
           className="absolute -right-20 top-1/4 hidden lg:block opacity-10"
         >
-          <Settings size={600} strokeWidth={0.5} />
+          <Tractor size={600} strokeWidth={0.5} />
         </motion.div>
       </section>
+
+      
+  
 
       {/* Stats Section */}
       <section className="bg-green-600 py-12 relative z-20 -mt-20 mx-4 md:mx-20 rounded-t-sm shadow-2xl">
@@ -103,30 +108,23 @@ const LandingPage = () => {
       <section className="py-32 container mx-auto px-6">
         <div className="text-center max-w-2xl mx-auto mb-20">
           <span className="text-green-600 font-bold tracking-widest uppercase text-xs mb-2 block">Our Capabilities</span>
-          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">Industrial Solutions</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">Agricultural Solutions</h2>
           <div className="w-24 h-1 bg-green-500 mx-auto" />
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
           {[
-            {
-              icon: Settings,
-              title: "Advanced Manufacturing",
-              desc: "State-of-the-art automated assembly lines ensuring precision and scalability for complex components.",
-              img: "https://images.unsplash.com/photo-1537462713117-1b600f2e0975?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-            },
-            {
-              icon: Box,
-              title: "Product Assembly",
-              desc: "End-to-end assembly services utilizing lean manufacturing principles to minimize waste and maximize value.",
-              img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-            },
-            {
-              icon: Truck,
-              title: "Logistics & Supply",
-              desc: "Integrated supply chain management ensures your products are delivered on time, every time.",
-              img: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-            }
+{ icon: Leaf, title: 'Non‑GMO Focus', desc: 'We prioritize non‑GMO agricultural products tailored for quality‑conscious markets.' 
+,                img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+
+},
+{              img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+, icon: Factory, title: 'Processing Capacity', desc: 'Over 500,000kg of agricultural products processed and supplied since inception.' },
+{              img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+, icon: Globe, title: 'Global Reach', desc: 'Supplying both domestic processors and international buyers through Lagos Port.' }
+,
+
+         
           ].map((service, idx) => (
             <motion.div 
               key={idx}
@@ -184,7 +182,7 @@ const LandingPage = () => {
              <div className="relative">
                <div className="absolute inset-0 border-2 border-green-500/30 transform translate-x-4 translate-y-4" />
                <img 
-                 src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+                 src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae" 
                  alt="Industrial Worker" 
                  className="relative w-full shadow-2xl grayscale hover:grayscale-0 transition-all duration-500"
                />
@@ -192,6 +190,75 @@ const LandingPage = () => {
            </div>
          </div>
       </section>
+
+
+
+
+{/* About Section */}
+<section className="py-20 bg-gray-50">
+<div className="max-w-7xl mx-auto px-6">
+<motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="text-center max-w-3xl mx-auto">
+<h2 className="text-3xl md:text-4xl font-bold">About Qerve Industries</h2>
+<p className="mt-4 text-gray-600">
+Established in 2019, Qerve Industries Ltd. operates as a warehouse, processor, trader, and supplier of agricultural commodities and animal feed by‑products across Nigeria and international markets.
+</p>
+</motion.div>
+
+
+<div className="grid md:grid-cols-3 gap-8 mt-16">
+{[{ icon: Leaf, title: 'Non‑GMO Focus', text: 'We prioritize non‑GMO agricultural products tailored for quality‑conscious markets.' },
+{ icon: Factory, title: 'Processing Capacity', text: 'Over 500,000kg of agricultural products processed and supplied since inception.' },
+{ icon: Globe, title: 'Global Reach', text: 'Supplying both domestic processors and international buyers through Lagos Port.' }]
+.map((item, i) => (
+<motion.div key={i} whileHover={{ y: -8 }} className="bg-white p-8 rounded-2xl shadow-md">
+<item.icon className="w-10 h-10 text-green-600" />
+<h3 className="mt-4 font-semibold text-xl">{item.title}</h3>
+<p className="mt-2 text-gray-600">{item.text}</p>
+</motion.div>
+))}
+</div>
+</div>
+</section>
+
+
+{/* Products Section */}
+<section className="py-20">
+<div className="max-w-7xl mx-auto px-6">
+<h2 className="text-3xl md:text-4xl font-bold text-center">Our Products</h2>
+<div className="grid md:grid-cols-3 gap-8 mt-12">
+{['Oil Seeds & Nuts', 'Grains', 'Animal Feed By‑products', 'Cassava Products', 'Gum Arabic', 'Soybeans & Sesame']
+.map((product, i) => (
+<motion.div key={i} whileHover={{ scale: 1.05 }} className="border rounded-2xl p-6 flex items-center gap-4">
+<Package className="text-green-600" />
+<span className="font-medium">{product}</span>
+</motion.div>
+))}
+</div>
+</div>
+</section>
+
+
+{/* Market Section */}
+<section className="py-20 bg-slate-950 text-white">
+<div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+<motion.div initial={{ opacity: 0, x: -40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
+<h2 className="text-3xl md:text-4xl font-bold">Domestic & Export Markets</h2>
+<p className="mt-4 text-green-100">
+We supply major local processors such as Olam Agri Nigeria and JB Farms, while exporting commodities like Palm Kernel Cake, Sesame, and Soybeans to international markets.
+</p>
+</motion.div>
+<motion.div initial={{ opacity: 0, x: 40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="grid grid-cols-2 gap-6">
+<div className="bg-white/10 p-6 rounded-2xl">
+<Ship />
+<p className="mt-2">Lagos Port Exports</p>
+</div>
+<div className="bg-white/10 p-6 rounded-2xl">
+<Users />
+<p className="mt-2">Trusted Local Partners</p>
+</div>
+</motion.div>
+</div>
+</section>
 
       {/* CTA */}
       <section className="py-24 bg-green-50">

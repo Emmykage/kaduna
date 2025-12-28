@@ -6,13 +6,13 @@ import { Linkedin, Mail } from 'lucide-react';
 const DirectorPage = () => {
   const leadership = [
     {
-      name: 'Mr. Henry Benye',
+      name: 'Engr. Henry Benye',
       role: 'Managing Director',
       bio: 'Leading with over two decades of industrial expertise, driving strategic growth and sustainable manufacturing practices at Qerve Limited.',
       image: 'henry.jpeg'
     },
     {
-      name: 'Mr. Chuba Menanya',
+      name: 'Engr. Chuba Menanya',
       role: 'COO & Head of Accounts',
       bio: 'Expertly bridging operations and finance to ensure fiscal health and operational efficiency across all production lines.',
       image: 'chuba.jpeg'
