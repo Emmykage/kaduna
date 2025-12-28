@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet';
-import { Linkedin, Mail } from 'lucide-react';
+import {  Mail } from 'lucide-react';
 
 const DirectorPage = () => {
   const leadership = [
