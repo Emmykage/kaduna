@@ -115,12 +115,12 @@ Qerve Industries Ltd. is a trusted processor, trader, and exporter of high‑qua
         <div className="grid md:grid-cols-3 gap-8">
           {[
 { icon: Leaf, title: 'Non‑GMO Focus', desc: 'We prioritize non‑GMO agricultural products tailored for quality‑conscious markets.' 
-,                img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+,                img: "https://images.unsplash.com/photo-1605000797499-95a51c5269ae"
 
 },
-{              img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+{              img: "https://images.unsplash.com/photo-1605000797499-95a51c5269ae"
 , icon: Factory, title: 'Processing Capacity', desc: 'Over 500,000kg of agricultural products processed and supplied since inception.' },
-{              img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+{              img: "https://images.unsplash.com/photo-1605000797499-95a51c5269ae"
 , icon: Globe, title: 'Global Reach', desc: 'Supplying both domestic processors and international buyers through Lagos Port.' }
 ,
 
