@@ -91,9 +91,9 @@ Qerve Industries Ltd. is a trusted processor, trader, and exporter of high‑qua
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-x divide-green-500/50">
             {[
               { label: "Years Experience", value: "25+" },
-              { label: "Projects Completed", value: "1200+" },
-              { label: "Expert Engineers", value: "150+" },
-              { label: "Global Partners", value: "40+" },
+              { label: "Agricultural Products Processed & Supplied", value: "1200+" },
+              { label: "Core Commodities Traded & Processed", value: "15+" },
+              { label: "Active Sourcing Regions Across Nigeria", value: "14+" },
             ].map((stat, idx) => (
               <div key={idx} className="p-4">
                 <h3 className="text-4xl font-black text-white mb-1">{stat.value}</h3>
@@ -166,9 +166,9 @@ Qerve Industries Ltd. is a trusted processor, trader, and exporter of high‑qua
                </p>
                <ul className="space-y-6">
                  {[
-                   { icon: ShieldCheck, text: "ISO 9001:2015 Certified Quality Management" },
-                   { icon: Zap, text: "Energy Efficient Production Systems" },
-                   { icon: BarChart3, text: "Real-time Production Analytics" }
+                   { icon: ShieldCheck, text: "Proven Capacity & Reliability" },
+                   { icon: Zap, text: "Value-Added, Non-GMO Focus" },
+                   { icon: BarChart3, text: "Strong Domestic & Export Market Access" }
                  ].map((item, i) => (
                    <li key={i} className="flex items-center gap-4 text-white">
                      <div className="p-2 rounded bg-green-600/20 text-green-500 border border-green-600/30">
