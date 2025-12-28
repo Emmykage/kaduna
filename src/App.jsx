@@ -8,7 +8,7 @@ import DirectorPage from './pages/DirectorPage';
 import ContactPage from './pages/ContactPage';
 import Footer from './components/Footer';
 import { Toaster } from './components/UI/toaster';
-
+import "./App.css";
 function App() {
   return (
     <Router>
