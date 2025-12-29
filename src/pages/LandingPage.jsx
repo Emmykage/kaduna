@@ -78,9 +78,9 @@ Qerve Industries Ltd. is a trusted processor, trader, and exporter of high‑qua
         {/* Decorative mechanical element */}
         <motion.div 
           initial={{ opacity: 0, rotate: -20 }}
-          animate={{ opacity: 1, rotate: 0 }}
+          animate={{ opacity: 1, rotate: -3 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
-          className="absolute -right-20 top-1/4 hidden lg:block opacity-10"
+          className=" absolute -right-10 top-1/4 hidden lg:block opacity-10"
         >
           <Tractor size={600} strokeWidth={0.5} />
         </motion.div>
