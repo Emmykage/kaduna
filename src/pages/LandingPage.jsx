@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Settings, Truck, Box, BarChart3, ShieldCheck, Zap, Leaf, Factory, Globe, Package, Ship, Users, Tractor } from 'lucide-react';
 import { Button } from '../components/UI/button';
 
+import img1 from '../assets/Agro-2-e1561100300530-1.jpg';
+import img2 from '../assets/11111-1.jpg';
+import img3 from '../assets/TREIASFI3NMXZEVEYVBXHSIGTI.avif';
+
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
   visible: { opacity: 1, y: 0 }
@@ -118,9 +122,9 @@ Qerve Industries Ltd. is a trusted processor, trader, and exporter of high‑qua
 ,                img: "https://images.unsplash.com/photo-1605000797499-95a51c5269ae"
 
 },
-{              img: "https://images.unsplash.com/photo-1605000797499-95a51c5269ae"
+{              img: img2
 , icon: Factory, title: 'Processing Capacity', desc: 'Over 500,000kg of agricultural products processed and supplied since inception.' },
-{              img: "https://images.unsplash.com/photo-1605000797499-95a51c5269ae"
+{              img: img3
 , icon: Globe, title: 'Global Reach', desc: 'Supplying both domestic processors and international buyers through Lagos Port.' }
 ,
 
