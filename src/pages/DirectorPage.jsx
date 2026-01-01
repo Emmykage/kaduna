@@ -13,7 +13,7 @@ const DirectorPage = () => {
     },
     {
       name: 'Engr. Chuba Menanya',
-      role: 'COO & Head of Accounts',
+      role: 'COO ',
       bio: 'Expertly bridging operations and finance to ensure fiscal health and operational efficiency across all production lines.',
       image: 'chuba.jpeg'
     }
@@ -22,7 +22,7 @@ const DirectorPage = () => {
   const team = [
     {
       name: 'Ernest Paul Orji',
-      role: 'Senior Team Member',
+      role: 'Head of Accountsr',
       image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
     }
   ];
